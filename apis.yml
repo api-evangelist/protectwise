@@ -1,24 +1,62 @@
 aid: protectwise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/protectwise.png
 name: ProtectWise
-description: 'ProtectWise is a company surfaced as a portfolio company of trinity-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ProtectWise was a Denver-based cloud-delivered network security company
+  providing Network Detection and Response (NDR) — full-packet capture, retrospective
+  threat hunting, and a 3D visual security operations interface ("The ProtectWise Grid").
+  It published a REST API at api.protectwise.com (v1) using X-Access-Token authentication
+  (username@@token-uuid) with sensors and observations endpoints for querying threat
+  data and indicators of compromise. Backed by Trinity Ventures, ProtectWise was acquired
+  by Verizon in March 2019 for ~$225M and folded into Verizon Network Detection and
+  Response; the standalone protectwise.com domain and API host are now offline. The
+  company''s open-source legacy survives on GitHub, most notably the widely-used troika
+  JavaScript 3D/2D visualization framework.'
 url: https://raw.githubusercontent.com/api-evangelist/protectwise/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: verizon
+x-acquired-date: '2019-03-01'
 x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- Network Detection and Response
+- Threat Detection
+- Cybersecurity
+- Network Security
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/protectwise
+- type: SourceCode
+  name: troika
+  url: https://github.com/protectwise/troika
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
