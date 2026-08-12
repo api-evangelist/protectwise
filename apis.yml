@@ -45,6 +45,9 @@ tags:
 - Acquired
 apis: []
 common:
+- type: License
+  name: MIT
+  url: https://github.com/protectwise/troika/blob/main/LICENSE
 - type: GitHubOrganization
   url: https://github.com/protectwise
 - type: SourceCode
